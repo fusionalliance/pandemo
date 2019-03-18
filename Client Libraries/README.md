@@ -1,7 +1,11 @@
 # pandemo
-Creates a sample Webhook reciever, establishing an endpoint for the client to connect to PAN API.
-This will allow for cleints to establish a persistent enpoint.
+A sample project that allows users to connect to the development instance of PAN API. 
 
-External POSTs the URL target as a request. 
+This solution includes a web API project that includes a direct connection to the PAN tenant. Also, a console application that simulates authenticating and connecting to the PAN tenant. 
 
-Internal GETs the target URL and notifies the client about its status. Upon success, returns the public key for the certificate.
+This will allow clients to request access to interact with the PAN API. Once access is granted, clients will be able to create cases, update cases, delete cases, and recieve notifications on case updates. 
+
+Configurations:
+- AllowedHosts : "*"
+- UrlForPriorAuthNowTestEndpoint : "http://localhost:61434/api/NotificationTrigger"
+- UrlForWebhook : "http://localhost:61434/api/Notification"
