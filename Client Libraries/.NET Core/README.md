@@ -6,12 +6,13 @@ This solution allows PriorAuthNow API partners to access a fully-working API cli
 There are two projects included in this repository:
 - <b>ClientLibrary.PublicAPI.External</b>: This project is a WEB API implementation for issue new and updating cases and receiving web notifications
 - <b>ClientLibrary.PublicAPI.ConsoleApplication</b>: This project consumes the web api solution. The three supported use cases are:
-- (1): Trigger a web notification to the external API 
-- (2): Create a new prior authorization case
-- (3): Update an existing prior authorization case
+- - Trigger a web notification to the external API 
+- - Create a new prior authorization case
+- - Update an existing prior authorization case
 
 <h2> Requirements </h2>
 - Visual Studio 2017 Community or higher
+
 - .NET Core 2.1 
 
 <h2> Deployment </h2>
