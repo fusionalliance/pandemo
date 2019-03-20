@@ -5,7 +5,7 @@ This solution allows PriorAuthNow API partners to access a fully-working API cli
 
 There are two projects included in this repository:
 - <b>ClientLibrary.PublicAPI.External</b>: This project is a WEB API implementation for issue new and updating cases and receiving web notifications
-- <b>ClientLibrary.PublicAPI.ConsoleApplication</b>: This project consumes the web api solution. The options for running include:
+- <b>ClientLibrary.PublicAPI.ConsoleApplication</b>: This project consumes the web api solution. The three supported use cases are:
 - (1): Trigger a web notification to the external API 
 - (2): Create a new prior authorization case
 - (3): Update an existing prior authorization case
@@ -16,9 +16,7 @@ There are two projects included in this repository:
 
 <h2> Deployment </h2>
 The solution can be deployed to any major public cloud provider or on-premises infrastructure. 
-- - (1): Trigger a web notification to the external API 
-- - (2): Create a new prior authorization case
-- - (3): Update an existing prior authorization case
+
 
 To create the environment in the Microsoft Azure Cloud, click here: <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/quicksolutions/pandemo/master/Client%20Libraries/.NET%20Core/Deployment/azuredeploy.json?token=AAMTHiGXrq2e05cKAgBzgPG-tjRchRzLks5cmsl7wA%3D%3D" target="_blank">
 <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
