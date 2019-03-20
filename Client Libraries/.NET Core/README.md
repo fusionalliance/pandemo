@@ -9,6 +9,7 @@ There are two projects included in this repository:
 - - Trigger a web notification to the external API 
 - - Create a new prior authorization case
 - - Update an existing prior authorization case
+- - Get status summary for an existing case
 
 <h2> Requirements </h2>
 - Visual Studio 2017 Community or higher
