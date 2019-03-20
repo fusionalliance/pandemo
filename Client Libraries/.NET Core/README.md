@@ -19,7 +19,7 @@ There are two projects included in this repository:
 The solution can be deployed to any major public cloud provider or on-premises infrastructure. 
 
 
-To create the environment in the Microsoft Azure Cloud, click here: <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fquicksolutions%2Fpandemo%2Fmaster%2FClient%2520Libraries%2F.NET%2520Core%2FDeployment%2Fazuredeploy.json" target="_blank">
+To create the environment in the Microsoft Azure Cloud, login into the <a href="https://portal.azure.com">Azure Portal</a> and click here: <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fquicksolutions%2Fpandemo%2Fmaster%2FClient%2520Libraries%2F.NET%2520Core%2FDeployment%2Fazuredeploy.json" target="_blank">
 <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
 </a>
 
