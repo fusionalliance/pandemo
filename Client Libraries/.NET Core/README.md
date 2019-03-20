@@ -1,4 +1,4 @@
-﻿#PriorAuthNow .NET Core Sample
+﻿# PriorAuthNow .NET Core Sample
 
 This solution allows PriorAuthNow API partners to access a fully-working API client.
 
