@@ -1,0 +1,10 @@
+{
+  "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
+  "type": "QuickStart",
+  "itemDisplayName": "Deploy the PriorAuthNow receiver Web API",
+  "description": "This template allows you to deploy the PriorAuthNow test web API",
+  "summary": "This template allows you to deploy the PriorAuthNow test web API for receiving messages and propogating new cases",
+  "githubUsername": "jdages",
+  "dateUpdated": "2018-03-19"
+}
+

@@ -27,7 +27,7 @@ namespace Client.Library.PublicAPI.External.Controllers
             var priorAuthNowEndpoint = 
                 new Uri(_configuration["UrlForPriorAuthNowTestEndpoint"]);
 
-            using (HttpClient client = new HttpClient())
+            using (var client = new HttpClient())
             {
                 var requestMessage = new HttpRequestMessage(HttpMethod.Post, priorAuthNowEndpoint);
                 var content = GetJsonMessage(_configuration["UrlForWebhook"]);
